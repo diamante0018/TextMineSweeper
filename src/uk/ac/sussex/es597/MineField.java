@@ -308,7 +308,7 @@ public class MineField {
      * This method initialises the MineTile 2D array  
      * @param x number of rows
      * @param y number of columns
-     * @return 
+     * @return The initialized Minefield
      */
     private MineTile[][] conMineTile(int x, int y) {
         MineTile f[][] = new MineTile[x][y];
