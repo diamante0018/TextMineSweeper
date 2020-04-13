@@ -191,7 +191,8 @@ public class MineField {
     }
     
     /**
-     * This method returns true if all mined tiles have been flagged by the player and no other tile has been incorrectly flagged
+     * This method returns true if all mined tiles have been flagged by the player and no other tile has been incorrectly flagged.
+     * The mines must be flagged with a '?'
      * @return boolean true if game is over false if not
      */
     public boolean areAllMinesRevealed() {
